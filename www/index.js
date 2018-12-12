@@ -1,3 +1,3 @@
 import * as wasm from "../pkg/hey_rusty";
 
-wasm.greet();
+wasm.greeter();

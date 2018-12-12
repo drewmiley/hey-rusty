@@ -25,3 +25,8 @@ extern {
 pub fn greet() {
     alert("Hello, hey-rusty!");
 }
+
+#[wasm_bindgen]
+pub fn greeter() {
+    alert("Hello, hey-rustier!");
+}
