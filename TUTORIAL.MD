@@ -30,7 +30,7 @@
 ```
     <div id='root'></div>
 ```
-17. Open `www/index.js` and add
+17. Open `www/index.js` and replace the code with
 ```
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -62,5 +62,5 @@
       ]
     }
 ```
-19. `npm install`
-20. `npm start`
+19. `npm start`
+20. Enjoy at `http://localhost:8080`
