@@ -3,15 +3,16 @@ const path = require('path');
 
 module.exports = {
   target: "web",
+  mode: "development",
+  devtool: "source-map",
   entry: "./bootstrap.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "app.js",
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.wasm']
+    extensions: [".js", ".jsx", ".wasm"]
   },
-  devtool: "source-map",
   module: {
     rules: [
       {
@@ -20,14 +21,13 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ['@babel/env', '@babel/preset-react']
+            presets: ["@babel/env", "@babel/preset-react"]
           }
         }
       }
     ]
   },
-  mode: "development",
   plugins: [
-    new CopyWebpackPlugin(['index.html'])
-  ],
+    new CopyWebpackPlugin(["index.html"])
+  ]
 };
