@@ -30,3 +30,8 @@ pub fn greet() {
 pub fn greeter() {
     alert("Hello, hey-rustier!");
 }
+
+#[wasm_bindgen]
+pub fn squarer(x: i32) -> i32 {
+    x * x
+}
