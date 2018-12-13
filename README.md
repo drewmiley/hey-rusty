@@ -1,6 +1,8 @@
 # `hey-rusty`
 
-Using a template for kick starting a Rust and WebAssembly project from [`rustwasm`](https://rustwasm.github.io/book/).
+Using a template for kick starting a Rust and WebAssembly project from [`rustwasm`](https://rustwasm.github.io/book/) and also [`create-wasm-app`](https://github.com/rustwasm/create-wasm-app)
+
+Implements a simple react component to leverage rust examples.
 
 ## To run
 
